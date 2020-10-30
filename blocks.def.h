@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"󰤨 ", "nmcli -t -f name connection show --active",      5,      0},
 	{"󰕾 ",  "[ $(pamixer --get-mute) = true ] && echo 0 && exit||pamixer --get-volume",0,10},
-	{"󱑍 ", "date +%a', '%H:%M:%S",                           1,      0},
+	{"󱑍 ", "date +%a', '%T",                           1,      0},
 
 };
 
